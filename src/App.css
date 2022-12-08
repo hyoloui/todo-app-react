@@ -1,0 +1,32 @@
+body{
+  min-width: 800px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+h2{
+  margin-bottom: 0;
+}
+.div-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5%;
+  gap: 12px;
+}
+.card {
+  width: 90%;
+  border: 1px solid green;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-Items: center;
+  justify-content: center;
+}
+.card h3{
+  width: 100%;
+  text-align: center;
+}
+.card span{
+  width: 100%;
+  text-align: center;
+}
